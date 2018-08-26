@@ -347,19 +347,17 @@
         </profile>
 
     </profiles>
-    
-    <distributionManagement>
-    <snapshotrepository>
-         <id>snapshot1</id>
-         <name>snapshotrepo</name>
-         <url>http://192.168.126.131:8081/nexus/content/repositories/snapshot1</url>
-    </snapshotrepository>
-        <repository>
-         <id>snapsho</id>
-         <name>snap</name>
-         <url>http://192.168.126.131:8081/nexus/content/repositories/snapshot1</url>
-    </repository>
-   
+     ...
+  <distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://192.168.126.131:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+      
+       <repository>
+    <id>releases</id>
+    <url>http://192.168.126.131:8081/nexus/content/repositories/releases</url>
+  </repository>
 </distributionManagement>
     
     
