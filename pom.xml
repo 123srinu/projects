@@ -347,4 +347,15 @@
         </profile>
 
     </profiles>
+    
+    <distributionManagement>
+    <repository>
+         <id>snapshot1</id>
+         <name>snapshotrepo</name>
+         <url>http://192.168.126.131:8081/nexus/content/repositories/snapshot1/</url>
+    </repository>
+   
+</distributionManagement>
+    
+    
 </project>
